@@ -1,0 +1,41 @@
+{
+    // Enable/disable default JavaScript formatter (For Prettier)
+    "javascript.format.enable": true,
+    // Use 'prettier-eslint' instead of 'prettier'. Other settings will only be fallbacks in case they could not be inferred from eslint rules.
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.tabCompletion": "on",
+    "editor.tabSize": 2,
+    "javascript.validate.enable": true,
+    // "diffEditor.ignoreTrimWhitespace": true,
+    "editor.rulers": [80, 120],
+    "cSpell.words": [
+        "Deliveroo",
+        "Hashids",
+        "Lieferando",
+        "Lieferservice",
+        "MJAM",
+        "Unprocessable",
+        "camelcase",
+        "honestfoodcompany",
+        "kubectl",
+        "kubernetes",
+        "pino",
+        "pubsub",
+        "typeorm",
+        "upsert",
+        "webhook"
+    ],
+    "editor.codeActionsOnSave": {
+        // For ESLint
+        "source.fixAll.eslint": true,
+        // For TSLint
+        "source.fixAll.tslint": true,
+        // For Stylelint
+        "source.fixAll.stylelint": true
+    }
+}
